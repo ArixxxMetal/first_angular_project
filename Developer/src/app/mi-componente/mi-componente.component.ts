@@ -1,12 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-mi-componente',
+  selector: 'mi-componente',
   standalone: true,
   imports: [],
   templateUrl: './mi-componente.component.html',
   styleUrl: './mi-componente.component.css'
 })
-export class MiComponenteComponent {
 
+
+export class MiComponenteComponent {
+  //edad: number;
 }
